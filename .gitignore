@@ -1,0 +1,15 @@
+# Terraform files and directories
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Editor and IDE files
+*.vscode
+*.git
