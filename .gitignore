@@ -1,0 +1,72 @@
+# ============================================
+# Terraform
+# ============================================
+
+# Terraform working directory
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Terraform variable files
+*.tfvars
+*.tfvars.json
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+
+# ============================================
+# Terraform Lock File
+# ============================================
+
+# DO NOT ignore .terraform.lock.hcl
+# It should normally be committed to Git.
+
+
+# ============================================
+# IDE / Editor
+# ============================================
+
+.vscode/
+.idea/
+
+# VS Code workspace files
+*.code-workspace
+
+
+# ============================================
+# Operating System
+# ============================================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+
+# ============================================
+# Logs
+# ============================================
+
+*.log
+
+
+# ============================================
+# Environment / Secrets
+# ============================================
+
+.env
+.env.*
+*.pem
+*.key
